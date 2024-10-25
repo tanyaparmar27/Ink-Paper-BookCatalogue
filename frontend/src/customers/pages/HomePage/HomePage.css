@@ -1,0 +1,42 @@
+.banner{
+    background-image: url('E:\BookCatalogue\bookcatalogue-app\src\images\home1.png');
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    
+}
+
+.cover{
+
+    width: 100%;
+    height: 90vh;
+    background-color: black;
+    opacity: .6;
+}
+
+.fadeout{
+    z-index: 20;
+    background-color: initial;
+    background-image: linear-gradient(
+        180deg,
+        hsla(0,0%,8%,0)0,
+        hsla(0,0%,8%,0.15)15%,
+        hsla(0,0%,8%,0.35)29%,
+        hsla(0,0%,8%,0.58)44%,
+        #131313 68%
+        #0d0d0d
+    );
+    background-position: 0 top;
+    background-repeat: repeat-x;
+    background-size: 100% 100%;
+    bottom: -3rem;
+    height: 10vw;
+    opacity: 1;
+    width: 100%;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: 20;
+    border:  1px solid black;
+}
